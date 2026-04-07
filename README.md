@@ -56,7 +56,7 @@ sequenceDiagram
 ## Performance & Statistics
 By explicitly enforcing JSON schemas on the Gemini API and indexing the DOM, the application achieves incredible speeds:
 
-| Metric | Previous Architecture (Fuzzy Match) | New Architecture (DOM Indexing) |
+| Metric | Other Architectures (Fuzzy Match) | New Architecture (DOM Indexing) |
 | :--- | :--- | :--- |
 | **Parsing Mechanism** | Substring / RegEx Inclusion | Explicit `data-gemini-id` mappings |
 | **Accuracy (MCQ)** | ~85% (Failed on hidden text) | **100% Guaranteed Lock** |
